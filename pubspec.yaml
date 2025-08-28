@@ -1,0 +1,22 @@
+name: aurora_player
+version: 0.1.0
+publish_to: "none"
+description: A customizable music & video player with themes and visualizers.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  just_audio: ^0.9.36
+  audio_session: ^0.1.15
+  audio_service: ^0.18.12
+  video_player: ^2.7.2
+  path: ^1.9.0
+  google_mobile_ads: ^3.0.0
+  flutter_fft: ^0.4.0
+
+flutter:
+  uses-material-design: true
